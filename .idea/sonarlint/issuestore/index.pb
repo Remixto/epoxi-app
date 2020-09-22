@@ -10,8 +10,6 @@ F
 repository-api/api.iml,5\3\531dcad50a81cb8eccfef7c6c86d58648c062d9d
 7
 app.iml,a\b\ab6b3d2fffea7b8a426f45c9c573fea329102e97
-k
-;repository-api/src/main/resources/epoxi-repository-api.yaml,0\4\049dd01c34b30ac7231dbd0a858d5a8313356bb6
 O
 etlengine-api/etlengine-api.iml,b\a\ba774c147e752a1a389bce1261b6e145361a4692
 Z
@@ -208,10 +206,6 @@ v
 Fetlengine/src/main/java/io/epoxi/engine/etl/pipeline/LoadPipeline.java,6\0\60c5e2ec25ffaf45818a7a5f0e60d7fe2a7634f0
 q
 Aetlengine/src/test/java/io/epoxi/engine/etl/LoadPipelineTest.java,d\8\d84fb42a53b5f622682dd80a2caae507c3b0d6eb
-S
-#core/src/main/resources/logback.xml,c\f\cf35313327c4a005d733f8e54b3f22bea1eb47cc
-X
-(etlengine/src/main/resources/logback.xml,3\8\386f9ab448ee4f6b7d6ff35406aebadb2ebd437b
 o
 ?core/src/main/java/io/epoxi/cloud/logging/LogEntryEnhancer.java,3\d\3dcec971ea78bab1caad408f9e31a874f59da931
 s
@@ -442,3 +436,10 @@ k
 ;etlengine-api/src/main/java/io/epoxi/etlengine/api/App.java,a\2\a2734a0a14426f10b8b565105e29a0efb4519e35
 m
 =repository-api/src/main/java/io/epoxi/repository/api/App.java,e\e\ee2aabe972879c2c1dcceb691bcb2c68e465b262
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+I
+epoxi-repository-api.yaml,f\6\f621914aedc51b7790792099bef3f7638bc278fa
+\
+,etlengine-api/src/main/resources/logback.xml,6\b\6b9bd428a431ab12f11dee8597cb7db507f183a3

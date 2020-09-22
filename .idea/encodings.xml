@@ -2,15 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/etlengine-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/etlengine-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/etlengine/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/etlengine/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/repository-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/repository-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/repository/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/repository/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/source/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
   </component>
