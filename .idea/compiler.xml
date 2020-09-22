@@ -16,7 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="app" target="11" />
+      <module name="app" target="1.5" />
       <module name="core" target="11" />
       <module name="etlengine" target="11" />
       <module name="etlengine-api" target="11" />

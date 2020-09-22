@@ -6,7 +6,7 @@
     </filter>
     <log>epoxi-etlengine.log</log> <!-- Optional : default java.log -->
     <resourceType>gae_app</resourceType> <!-- Optional : default: auto-detected, fallback: global -->
-    <enhancer>io.epoxi.app.cloud.logging.LogEntryEnhancer</enhancer> <!-- Optional -->
+    <enhancer>io.epoxi.cloud.logging.LogEntryEnhancer</enhancer> <!-- Optional -->
     <flushLevel>INFO</flushLevel> <!-- Optional : default ERROR -->
   </appender>
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
