@@ -37,7 +37,6 @@ substitutions:
   _TRIGGER_ID: d70884a5-39f1-4b24-804b-b5c07e3e51bd
   _SERVICE_NAME: epoxi
   _DEPLOY_REGION: us-central1
-  _GOOGLE_RUNTIME_VERSION
 tags:
   - gcp-cloud-build-deploy-cloud-run
   - gcp-cloud-build-deploy-cloud-run-managed
