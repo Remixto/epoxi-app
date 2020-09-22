@@ -12,6 +12,7 @@
       <module>repository-api</module>
       <module>source</module>
     </modules>
+
     <packaging>pom</packaging>
   
   <properties>

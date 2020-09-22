@@ -226,3 +226,5 @@ A
 core/pom.xml,7\6\76401d80919958a0380f14132adf8b8fc9c3d6ea
 W
 'src/test/java/io/epoxi/app/AppTest.java,0\0\00da4c8520fb22334901a8b377c78c95205ca5ca
+?
+cloudbuild.yaml,2\9\29f05b800c87ad5f37e2133933c9576c7ef9b2d7
