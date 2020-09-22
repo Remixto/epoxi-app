@@ -37,7 +37,7 @@ class SwaggerTest {
         try
         {
             String yaml = Yaml.mapper().writeValueAsString(swagger);
-            String fileName = "D:\\Dev\\epoxi\\app\\repository-api\\src\\main\\resources\\epoxi-repository-api.yaml";
+            String fileName = "D:\\Dev\\epoxi\\app\\epoxi-repository-api.yaml";
             writeToFile(fileName, yaml);
         }
         catch (Exception exception)
