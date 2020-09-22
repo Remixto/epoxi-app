@@ -16,13 +16,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="app" target="1.5" />
-      <module name="core" target="12" />
-      <module name="etlengine" target="12" />
-      <module name="etlengine-api" target="12" />
-      <module name="repository" target="12" />
-      <module name="repository-api" target="12" />
-      <module name="source" target="12" />
+      <module name="app" target="11" />
+      <module name="core" target="11" />
+      <module name="etlengine" target="11" />
+      <module name="etlengine-api" target="11" />
+      <module name="repository" target="11" />
+      <module name="repository-api" target="11" />
+      <module name="source" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
