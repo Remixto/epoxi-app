@@ -1,0 +1,8 @@
+# Project exclude paths
+/core/target/
+/etlengine/target/
+/etlengine-api/target/
+/repository/target/
+/repository-api/target/
+/source/target/
+/target/

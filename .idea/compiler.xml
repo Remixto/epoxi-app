@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="core" />
+        <module name="etlengine-api" />
+        <module name="source" />
+        <module name="repository" />
+        <module name="repository-api" />
+        <module name="etlengine" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app" target="1.5" />
+      <module name="core" target="12" />
+      <module name="etlengine" target="12" />
+      <module name="etlengine-api" target="12" />
+      <module name="repository" target="12" />
+      <module name="repository-api" target="12" />
+      <module name="source" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

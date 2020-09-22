@@ -1,0 +1,48 @@
+[
+    {
+        "stepTemplate" : {
+            "name": "default",
+            "stepType" : "EXTRACT", 
+            "messages" : {
+                "IN":  "projects/etlengine/subscriptions/source_reader",
+                "OUT": "projects/etlengine/topics/etl_extract.cdc.{keysetId}",
+                "ERROR":  "projects/etlengine/topics/error_etl_extract"            
+            },
+            "pipeline" : {
+                "SOURCE": {"tableId" :"{source.tableId}"},
+                "TARGET": {"tableId" :"{projectName.temp.etl_extract_{keysetName}"}
+            }
+        }
+    },
+    {
+        "stepTemplate" : {
+            "name": "default",
+            "stepType" : "TRANSFORM",
+            "messages" : {
+                "IN": "projects/etlengine/subscriptions/etl_extract.cdc.{keysetId}_reader",
+                "OUT": "projects/etlengine/topics/etl_transform",
+                "ERROR": "projects/etlengine/topics/error_etl_transform"               
+            },
+            "pipeline" : {
+                "SOURCE": {"tableId" :"{projectName}.temp.etl_extract_{keysetName}", "keyFieldId" : "{target.tableName}_Key"},
+                "TARGET": {"tableId" :"{projectName}.temp.etl_load_{keysetName}", "keyFieldId" : "{target.tableName}_Key"}
+            }
+        }
+    },
+    {
+        "stepTemplate" : {
+            "name": "default",
+            "stepType" : "LOAD",
+            "messages" : {
+                "IN": "projects/etlengine/subscriptions/etl_transform_reader",
+                "OUT": "projects/etlengine/topics/etl_load",
+                "ERROR": "projects/etlengine/topics/error_etl_load"
+            },          
+            "pipeline" : {
+                "SOURCE": {"tableId" :"{projectName}.temp.etl_load_{keysetName}"},                 
+                "TARGET": {"tableId" :"{target.tableId}"}
+            }
+        }
+    }    
+
+]

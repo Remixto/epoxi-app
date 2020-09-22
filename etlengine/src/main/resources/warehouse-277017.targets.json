@@ -1,0 +1,24 @@
+[
+    {
+        "tableId": "store.Entity_Type", 
+        "scdType": "TYPEI",
+        "type" : "TABLE",
+        "shortRow": 
+        [
+            {"name": "Entity_Type_Key", "shortName": "Key"},
+            {"name": "Entity_Type_Code", "shortName": "Code"},
+            {"name": "Entity_Type_Desc", "shortName": "Desc"}
+        ]
+    },
+    {
+        "tableId": "store.Entity",
+        "scdType": "TYPEI",
+        "type" : "TABLE",
+        "shortRow":
+        [
+            {"name": "Entity_Key", "shortName": "Key"},
+            {"name": "Entity_Code", "shortName": "Code"},
+            {"name": "Entity_Desc", "shortName": "Desc"}
+        ]                  
+    }
+]

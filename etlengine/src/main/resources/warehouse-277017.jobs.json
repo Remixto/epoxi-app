@@ -1,0 +1,38 @@
+[
+    {   
+        "keysetName": "Firm_Data_Entity_Type",
+        "weight" : 100,
+        "source" : {    "tableId": "etl_resource.source_vw_Firm_Data_Entity_Type", "sourceType": "FULL", "deleteThreshold": 0.1},
+        "target" : {    "tableId": "store.Entity_Type"},
+        "stepTemplateName" : "default"
+    },
+    {   
+        "keysetName": "Firm_Data_Entity_Role",
+        "weight" : 100,
+        "source" : {    "tableId": "etl_resource.source_vw_Firm_Data_Entity_Role", "sourceType": "FULL", "deleteThreshold": 0.1},
+        "target" : {    "tableId": "store.Entity_Role"},
+        "stepTemplateName" : "default"
+    },
+    {
+        "keysetName": "Firm_Data_Entity",
+        "weight" : 110,
+        "source" : {    "tableId": "etl_resource.source_vw_Firm_Data_Entity", "sourceType": "FULL", "deleteThreshold": 0.1},                  
+        "fieldTransforms":
+            [              
+                {
+                    "type": "ETLColListTransform",
+                    "joinFieldId": "Entity_Key",
+                    "lookupTable": { "tableId": "etl_resource.transform_vw_Firm_Data_Entity", "keyFieldId": "Entity_Key"}, 
+                    "nestFields": false
+                },
+                {
+                    "type": "ETLFKeyTransform",
+                    "joinFieldId": "Entity_Type_Key",
+                    "lookupTable": { "tableId": "store.Entity_Type", "keyFieldId": "Entity_Type_Key"},                                 
+                    "nestFields": true
+                }              
+            ],
+        "target" : {    "tableId": "store.Entity"},
+        "stepTemplateName" : "default"
+    }
+]
