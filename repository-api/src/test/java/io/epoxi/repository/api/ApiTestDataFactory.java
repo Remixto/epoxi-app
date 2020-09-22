@@ -1,6 +1,5 @@
 package io.epoxi.repository.api;
 
-import io.epoxi.repository.App;
 import io.epoxi.repository.TestDataFactory;
 
 
