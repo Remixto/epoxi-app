@@ -10,12 +10,14 @@
         <module name="core" />
         <module name="etlengine-api" />
         <module name="source" />
+        <module name="api" />
         <module name="repository" />
         <module name="repository-api" />
         <module name="etlengine" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="11" />
       <module name="app" target="1.5" />
       <module name="core" target="11" />
       <module name="etlengine" target="11" />

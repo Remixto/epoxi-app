@@ -1,17 +1,0 @@
-
-_
-java:S2259 "DA "NullPointerException" could be thrown; "config" is nullable here.(Â«êÿÿÿÿÿ
-x
-java:S1488""bImmediately return this expression instead of assigning it to the temporary variable "singerArgs".(ÔÅ™ö
-H
-java:S1172"-Remove this unused method parameter "stream".(¸Õ”©ûÿÿÿÿ
-T
-java:S1117"">Rename "singerArgs" which hides the field declared at line 19.(ÔÅ™ö
->
-java:S1172-"(Remove this unused method parameter "p".(ÊœÒŠ
-M
-java:S11351"2Complete the task associated to this TODO comment.(ª¿ó»ıÿÿÿÿ
-@
-java:S1481"*Remove this unused "state" local variable.(˜¹Öü
-B
-java:S1481",Remove this unused "catalog" local variable.(áŞô’

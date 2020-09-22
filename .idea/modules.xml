@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/repository-api/api.iml" filepath="$PROJECT_DIR$/repository-api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/etlengine/etlengine.iml" filepath="$PROJECT_DIR$/etlengine/etlengine.iml" />
       <module fileurl="file://$PROJECT_DIR$/etlengine-api/etlengine-api.iml" filepath="$PROJECT_DIR$/etlengine-api/etlengine-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/repository/repository.iml" filepath="$PROJECT_DIR$/repository/repository.iml" />
-      <module fileurl="file://$PROJECT_DIR$/repository-api/api.iml" filepath="$PROJECT_DIR$/repository-api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/source/source.iml" filepath="$PROJECT_DIR$/source/source.iml" />
     </modules>
   </component>
