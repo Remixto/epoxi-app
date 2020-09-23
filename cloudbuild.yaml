@@ -31,7 +31,7 @@ images:
 options:
   substitutionOption: ALLOW_LOOSE
   env:
-    - 'GOOGLE_ENTRYPOINT=io.epoxi.repository.api.App'
+    - 'GOOGLE_ENTRYPOINT=java -jar target/repository-api-1.0-SNAPSHOT.jar'
 substitutions:
   _GCR_HOSTNAME: us.gcr.io
   _PLATFORM: managed
